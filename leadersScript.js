@@ -163,6 +163,7 @@ function toggleForm(){
 }
 //returns the path from '\\' removed and changed to '/'
 function basename(path) {
+	//this is a change
     return path.replace(/\\/g,'/').replace( /.*\//, '' );
 }
 // Checking the input fields for blank messages and number.
