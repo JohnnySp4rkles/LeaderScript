@@ -163,6 +163,7 @@ function toggleForm(){
 }
 //returns the path from '\\' removed and changed to '/'
 function basename(path) {
+	//blah blah
     return path.replace(/\\/g,'/').replace( /.*\//, '' );
 }
 // Checking the input fields for blank messages and number.
@@ -176,7 +177,6 @@ function checkFields(nameIn, countryIn, yearIn, pathIn){
 	else{
 		return true;
 	}
-// Check name fields for numbers
 }
 // This will create a pop-up of all the elements in the array.
 function arrayStats(){
